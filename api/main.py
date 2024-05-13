@@ -12,7 +12,7 @@ bedrock = session.client(service_name="bedrock-runtime")  # creates a Bedrock cl
 bedrock_model_id = "ai21.j2-ultra-v1"
 
 prompt = "What is the largest city in %s" % country
-print(prompt)
+
 body = json.dumps(
     {
         "prompt": prompt,  # AI21
