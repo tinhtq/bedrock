@@ -3,3 +3,9 @@ langchain_community
 langchain-aws
 numpy
 streamlit
+langchain
+langchain_text_splitters
+pypdf
+faiss-cpu
+anthropic
+transformers
